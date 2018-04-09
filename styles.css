@@ -1,0 +1,17 @@
+
+
+#container {
+	width: auto;
+	height: 90%;
+}
+
+#bone{
+	position: absolute;
+	left: 200px;
+}
+
+#ball{
+	position: absolute;
+	left : 285px;
+	/*-webkit-transform: rotate(20deg);*/
+}
