@@ -39,7 +39,7 @@ $(document).ready(function(){
 				let diffX = Math.abs($("#line")[0].getBoundingClientRect().top 
 					- $("#ball")[0].getBoundingClientRect().top);
 
-				if(diff < 25){
+				if(diffX < 25){
 					return true;
 				}
 
